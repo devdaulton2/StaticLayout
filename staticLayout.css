@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/62pELvCqUwOjj7KggdxEw4/efc70c33f3b6a271ee4e5ddd515c5d08/Crafts_HomepageHero__1_.jpg?w=2880&h=1740&fit=fill&fm=webp");
+    background-color: blue;
+    background-size: cover;
+    background-position: ;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    font-family: Sophia Pro,serif;
+    color: white; 
+}
+/* find font 
+*/
+
+.topNav {
+    background-color: black;
+    overflow: hidden;
+    height: 100px;
+}
+
+.topNav a {
+    float: center;
+    color: darkmagenta;
+    text-align: center;
+    padding: 100px 100px;
+}
+
+
+.tablink {
+    background-color: black;
+    color: white;
+    float: center;
+    border: black;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 0px;
+    font-size: 10px;
+    width: 10%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+#NewsFeatures {background-color: black;}
+#Quizzes {background-color: black;}
+#JKRowling {background-color: black;}
+#Discover {background-color: black;}
+#StartingHarryPotter {background-color: black;}
+#HogwartsSorting {background-color: black;}
+#FanClub {background-color: black;}
+#Pins {background-color: black;}
+#Shops {background-color: black;}
+
+.fantasticHeader{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    float: center;
+    height: 1000px;
+}
