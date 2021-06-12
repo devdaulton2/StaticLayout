@@ -4,76 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wizarding World: The Official Home of Harry Potter</title>
+    <link rel="icon" href="wizardingIcon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Prata&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="staticLayout.js"></script>
     <link rel="stylesheet" href="staticLayout.css">
 </head>
 <body>
 <!--Home navigation bar-->
 <div class="topNav">
-    <a class="active" href="#home"><img src="wizardingLogo.png" alt=""></a>
+    <a class="active" href="index.html"><img style="width: 12%" src="wizardingLogo.png" alt="wrong Logo"></a>
 </div>
 
-<!--Navigation bar with drop downs and open blank pages-->
-<button class="tablink" onclick="openPage('NEWS & FEATURES', this, 'black')">NEWS & FEATURES</button>
-<button class="tablink" onclick="openPage('QUIZZES', this, 'black')" id="defaultOpen">QUIZZES</button>
-<button class="tablink" onclick="openPage('J.K. ROWLING ARCHIVE', this, 'black')">J.K. ROWLING</button>
-<button class="tablink" onclick="openPage('DISCOVER', this, 'black')">DISCOVER</button>
-<button class="tablink" onclick="openPage('STARTING HARRY POTTER', this, 'black')">STARTING HARRY POTTER</button>
-<button class="tablink" onclick="openPage('HOGWARTS SORTING', this, 'black')">HOGWARTS SORTING</button>
-<button class="tablink" onclick="openPage('FAN CLUB', this, 'black')">FAN CLUB</button>
-<button class="tablink" onclick="openPage('PINS', this, 'black')">PINS</button>
-<button class="tablink" onclick="openPage('SHOP', this, 'black')">SHOP</button>
-
-<div id="NewFeatures" class="tabcontent">
-  <h3>Image and text</h3>
-  <p>drop down menu:( </p>
+<div class="login">
+  <a href="blank page" class="button">login</a>
 </div>
 
-<div id="Quizzes" class="tabcontent">
-  <h3>Image and text</h3>
-  <p>no drop down menu:)</p>
+<!--Navigation bar with drop downs and open blank pages
+need:  
+      -dashes between links gone
+      -font
+      -drop downs
+      -blank page?
+      -full highlight on hover
+      -include top navBar in hover highlight
+    -->
+<div class="tablink">
+  <ul>
+    <li><a href="blank page">NEWS & FEATURES</a></li>
+    <li><a href="blank page">QUIZZES</a></li>
+    <li><a href="blank page">J.K. ROWLING</a></li>
+    <li><a href="blank page">DISCOVER</a></li>
+    <li><a href="blank page">STARTING HARRY POTTER</a></li>
+    <li><a href="blank page">HOGWARTS SORTING</a></li>
+    <li><a href="blank page">FAN CLUB</a></li>
+    <li><a href="blank page">PINS</a></li>
+    <li><a href="blank page">SHOP</a></li>
+  </ul>
 </div>
-
-<div id="JKRowling" class="tabcontent">
-  <h3>Image and text</h3>
-  <p>no drop down menu. Trans Rights tho</p>
-</div>
-
-<div id="Discover" class="tabcontent">
-  <h3>Image and text</h3>
-  <p>drop down menu:(</p>
-</div>
-
-<div id="StartingHarryPotter" class="tabcontent">
-    <h3>Image and text</h3>
-    <p>no drop down menu</p>
-</div>
-
-<div id="HogwartsSorting" class="tabcontent">
-    <h3>Image and text</h3>
-    <p>no drop down menu</p>
-</div>
-
-<div id="FanClub" class="tabcontent">
-    <h3>Image and text</h3>
-    <p>no drop down menu:)</p>
-</div>
-
-<div id="Pins" class="tabcontent">
-    <h3>Image and text</h3>
-    <p>drop down menu:(</p>
-</div>
-
-<div id="Shop" class="tabcontent">
-    <h3>Image and text</h3>
-    <p>no drop down menu</p>
-</div>
+<!--how blank?-->
 
 <!--fantastic beast weasley sweater middle-->
  <div class="fantasticHeader">   
-     <img src="fantasticHeader.jpg" alt="HP and Fantastic Beasts">
-     <h1>Try our wizarding world craft tutorials</h1>
-     <p>Bring the wizarding world into your home through the magic of making things! We've got videos for creative types to craft Harry Potter-inspired creations - from Ravenclaw shoe laces to Weasley scarves.</p>
+     <img style= "width: 84%" src="fantasticHeader.jpg" alt="HP and Fantastic Beasts">
+ </div>
+<div class="mainTitle">
+   <h1>Discover your Patronus</h1>
+   <div class="mainText"> 
+    <p>Summon your happiest memory and our official Patronus experience will help you cast your very own magical, silver animal protector. From magical creatures to different breeds of cat - what will yours be?</p>
+   </div>
+  <div class="expectoButton">
+    <a href="blank page" class="button">Expecto Patronum</a>
+  </div>
 </div>
+
+<div class="row"> 
+  <div class="column">
+    <div class="card">
+      <a class="midImage" href="blank page"><img style="width: 85%" src="dumbledoreFriends.webp"></a>
+      <h4>FEATURE</h4>
+      <p>How to find <br /> common ground <br /> with your friends in different Hogwarts houses to you</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    <a class="midImage" href="blank page"><img style="width: 85%" src="harryQuiz.webp"></a>
+    <h4>QUIZ</h4>
+    <p>The Burrow Quiz</p>
+    </div>
+  </div>
+  <div class="column"> 
+    <div class="card">
+    <a class="midImage" href="blank page"><img style="width: 85%" src="theDA.webp"></a>
+    <h4>FEATURE</h4>
+    <p>Which member of Dumbledore's Army are <br /> you most like?</p>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
